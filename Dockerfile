@@ -1,4 +1,4 @@
-FROM hyperf/hyperf:latest
+FROM hyperf/hyperf:7.4-alpine-v3.9-swoole
 
 # watch
 RUN git clone https://github.com/assert6/hyperf-watch.git \
